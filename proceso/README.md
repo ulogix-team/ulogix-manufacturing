@@ -6,7 +6,7 @@
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
-Documentación del análisis del proceso de fabricación de bebidas, desde recepción de insumos hasta despacho.
+Documentación del análisis del proceso de fabricación de bebidas, desde la recepción de insumos hasta el despacho.
 
 ## Contenido esperado
 

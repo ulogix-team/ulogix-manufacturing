@@ -14,7 +14,7 @@
 
 # ulogix-manufacturing
 
-Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y automatización de la línea de bebidas. Abarca desde el análisis del proceso productivo hasta la implementación del control lógico-secuencial y la simulación en entornos industriales.
+Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y automatización de la línea de bebidas. Abarca desde el análisis del proceso productivo hasta la implementación del control lógico-secuencial.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -22,14 +22,14 @@ Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y autom
 
 ```
 ulogix-manufacturing/
-├── proceso/              Análisis del proceso, diagramas, VSM, recetas
-├── planta/               Layout de planta, planos 2D, cálculos de área
-├── gemelo-digital/       Digital Factory, modelos, señales I/O virtuales
-├── nx/                   Siemens NX: modelos 3D, simulaciones cinemáticas
-├── studio-5000/          Allen-Bradley Studio 5000 / Logix Emulate
-├── grafcet/              Lógica secuencial Grafcet por producto y modo
-├── robotstudio/          Celda robotizada ABB, RAPID, análisis de riesgos
-└── documentos/           Documentación técnica general
+├── proceso/          Análisis del proceso, diagramas, VSM, recetas
+├── planta/           Layout de planta, planos 2D, cálculos de área
+├── gemelo-digital/   Digital Factory, modelos, señales I/O virtuales
+├── nx/               Siemens NX: modelos 3D, simulaciones cinemáticas
+├── studio-5000/      Allen-Bradley Studio 5000 / Logix Emulate
+├── grafcet/          Lógica secuencial Grafcet por producto y modo
+├── robotstudio/      Celda robotizada ABB, RAPID, análisis de riesgos
+└── documentos/       Documentación técnica general
 ```
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
@@ -60,10 +60,18 @@ Cada producto tiene receta de control independiente, secuencia lógica diferenci
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
+## Flujo de Trabajo
+
+```
+main ──────────────────► producción estable
+  └── develop ─────────► integración y desarrollo
+```
+
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
+
 ## Repositorios Relacionados
 
 - [ulogix-scada-control](https://github.com/ulogix-team/ulogix-scada-control) — SCADA, HMI, OPC
 - [ulogix-data-finance](https://github.com/ulogix-team/ulogix-data-finance) — OEE, tiempos, finanzas
-- [ulogix-team.github.io](https://ulogix-team.github.io) — Sitio web
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>

@@ -10,7 +10,7 @@ Diagramas Grafcet (SFC) del control lógico-secuencial de la línea, por product
 
 ## Contenido esperado
 
-- `diagramas/` — Grafcet por producto (agua, bebida energética, jugo), modos manual/automático, arranque y paro de emergencia
+- `diagramas/` — Grafcet por producto, modos manual/automático, arranque y paro de emergencia
 
 ## Responsable
 
