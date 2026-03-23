@@ -126,7 +126,6 @@ ulogix-manufacturing/
 | Arquitectura ISA-95 / P&ID | Andrés Mauricio Morales Martínez | [@mora200217](https://github.com/mora200217) | Andrés F. Quenan |
 | PLC / Grafcet / Ladder | Juan José Díaz Guerrero | [@Judiazgu](https://github.com/Judiazgu) | Juan F. Triana |
 | Proceso / VSM / Recetas | Jorge Nicolas Garzón Acevedo | [@Nicolas-Eule](https://github.com/Nicolas-Eule) | Juan M. Beltrán |
-| **Supervisión NX/DF · MES · GitHub/Docs** | **Samuel David Sanchez Cardenas** | [@samsanchezcar](https://github.com/samsanchezcar) | Jorge N. Garzón |
 
 **Supervisores académicos:** Carlos J. Cortés · Luis M. Méndez · Víctor H. Grisales · Ricardo Ramírez · Ubaldo García · Eduardo Barrera
 
