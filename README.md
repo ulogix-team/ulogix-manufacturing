@@ -3,6 +3,10 @@
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/logos/ulogix-icon-transparent-dark.svg" height="55"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Studio_5000-Logix_Emulate-000000?style=flat-square"/>
   &nbsp;
   <img src="https://img.shields.io/badge/RobotStudio-ABB-000000?style=flat-square"/>
@@ -14,7 +18,7 @@
 
 # ulogix-manufacturing
 
-Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y automatización de la línea de bebidas. Abarca desde el análisis del proceso productivo hasta la implementación del control lógico-secuencial.
+Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y automatización de la línea de bebidas.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -42,7 +46,40 @@ ulogix-manufacturing/
 | Bebida energética | Medio volumen | 2 L | Botella PET |
 | Jugo natural | Gran volumen | 20 L | Garrafón |
 
-Cada producto tiene receta de control independiente, secuencia lógica diferenciada e interacción específica con la celda robotizada.
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
+
+## Módulos
+
+<table>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td><strong>proceso/</strong> — Diagramas de flujo, P&ID, VSM, recetas por producto</td>
+</tr>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td><strong>planta/</strong> — Layout de planta, planos 2D, cálculos de dimensionamiento</td>
+</tr>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td><strong>gemelo-digital/</strong> — NX MCD, señales I/O virtuales, conexión con Logix Emulate</td>
+</tr>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td><strong>nx/</strong> — Modelos 3D y simulaciones cinemáticas en Siemens NX</td>
+</tr>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td><strong>studio-5000/</strong> — Programas PLC (.ACD), base de tags</td>
+</tr>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td><strong>grafcet/</strong> — Control secuencial por producto y modo de operación</td>
+</tr>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td><strong>robotstudio/</strong> — Celda ABB, código RAPID, análisis de riesgos ISO 10218</td>
+</tr>
+</table>
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -66,12 +103,5 @@ Cada producto tiene receta de control independiente, secuencia lógica diferenci
 main ──────────────────► producción estable
   └── develop ─────────► integración y desarrollo
 ```
-
-<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
-
-## Repositorios Relacionados
-
-- [ulogix-scada-control](https://github.com/ulogix-team/ulogix-scada-control) — SCADA, HMI, OPC
-- [ulogix-data-finance](https://github.com/ulogix-team/ulogix-data-finance) — OEE, tiempos, finanzas
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
