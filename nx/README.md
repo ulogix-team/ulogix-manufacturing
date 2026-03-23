@@ -6,15 +6,18 @@
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
-Modelos 3D de la línea de producción y simulaciones cinemáticas en Siemens NX.
+Modelos 3D de la línea de producción y simulaciones cinemáticas en Siemens NX. Incluye la exportación de puntos desde RobotStudio a NX para integración con el gemelo digital.
 
 ## Contenido esperado
 
 - `modelos-3d/` — Ensamblajes y piezas de la línea (.prt)
 - `simulaciones/` — Archivos de simulación de movimiento y flujo
 
-## Responsable
+## Responsables
 
-Juan Manuel Beltrán Botello · [@JuanBeltran2024](https://github.com/JuanBeltran2024)
+| Rol | Nombre | GitHub |
+|---|---|:---:|
+| Desarrollador principal | Juan Manuel Beltrán Botello | [@JuanBeltran2024](https://github.com/JuanBeltran2024) |
+| **Supervisor NX/DF** | **Samuel David Sanchez Cardenas** | [@samsanchezcar](https://github.com/samsanchezcar) |
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
