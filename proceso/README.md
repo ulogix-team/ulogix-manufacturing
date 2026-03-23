@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 </p>
 
 # 📋 Proceso — Análisis del Proceso Productivo
@@ -17,5 +17,5 @@ Esta carpeta contiene la documentación del análisis del proceso de fabricació
 Jorge N. Garzón · [@Nicolas-Eule](https://github.com/Nicolas-Eule)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 </p>

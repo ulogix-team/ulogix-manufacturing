@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/header-banner.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/header-dark.svg" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-main.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y automatización de la línea de bebidas. Comprende desde el análisis del proceso productivo hasta la implementación del control lógico-secuencial y la simulación en entornos industriales.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 </p>
 
 ## 📁 Estructura del Repositorio
@@ -70,7 +70,7 @@ ulogix-manufacturing/
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 </p>
 
 ## 🏭 Línea de Producción
@@ -86,7 +86,7 @@ La línea fabrica **tres productos diferenciados**:
 Cada producto tiene una **receta de control** independiente, secuencia lógica diferenciada e interacción específica con la celda robotizada.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 </p>
 
 ## 👥 Responsables
@@ -102,7 +102,7 @@ Cada producto tiene una **receta de control** independiente, secuencia lógica d
 **Supervisores académicos:** Carlos J. Cortés · Luis M. Méndez · Víctor H. Grisales · Ricardo Ramírez · Ubaldo García · Eduardo Barrera
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 </p>
 
 ## 🔗 Repositorios Relacionados
@@ -112,5 +112,5 @@ Cada producto tiene una **receta de control** independiente, secuencia lógica d
 - [ulogix-team.github.io](https://ulogix-team.github.io) — Sitio web del proyecto
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-banner.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
 </p>
