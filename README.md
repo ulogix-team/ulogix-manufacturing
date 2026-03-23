@@ -14,11 +14,13 @@
   <img src="https://img.shields.io/badge/NX-Siemens-000000?style=flat-square"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Digital_Factory-Gemelo_Digital-000000?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/KRONES-HEUFT-000000?style=flat-square"/>
 </p>
 
 # ulogix-manufacturing
 
-Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y automatización de la línea de bebidas FEMSA.  
+Repositorio de ingeniería de proceso, diseño de planta, gemelo digital y automatización de la línea de bebidas FEMSA / Coca-Cola Fontibón.  
 Cubre los módulos: **Introducción a la Automatización**, **Celda Robotizada**, **Digital Factory** y **Controladores Industriales**.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
@@ -27,27 +29,27 @@ Cubre los módulos: **Introducción a la Automatización**, **Celda Robotizada**
 
 ```
 ulogix-manufacturing/
-├── proceso/          Análisis del proceso, diagramas, P&ID, ISA-95, VSM, recetas
-├── planta/           Layout de planta, planos 2D, cálculos de área
+├── proceso/          DOP, DAP, P&ID, ISA-95, recetas (Líneas 2, 3, 7)
+├── planta/           Layout funcional FEMSA, planos 2D, flujo de materiales
 ├── gemelo-digital/   Digital Factory NX MCD, señales I/O, conexión Logix Emulate
 ├── nx/               Siemens NX: modelos 3D, exportación RobotStudio→NX
 ├── studio-5000/      Studio 5000 / Logix Emulate: programas .ACD, tags
 ├── grafcet/          Control secuencial Grafcet por producto y modo
-├── robotstudio/      Celda ABB, simulación, código RAPID, análisis de riesgos
-└── documentos/       Documentación técnica general
+├── robotstudio/      Celda ABB, simulación, RAPID, análisis de riesgos ISO 10218
+└── documentos/       Documentación técnica general y taller de módulo
 ```
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
-## Línea de Producción — FEMSA
+## Líneas de Producción — FEMSA / Coca-Cola Fontibón
 
-| Producto | Tipo | Volumen | Envase | Diferenciadores |
+| Línea | Producto | Envase | Volumen | Maquinaria principal |
 |---|---|---|---|---|
-| Agua purificada | Bajo volumen (BM) | 600 mL | Botella PET | Sin aditivos, T° ambiente |
-| Bebida energética | Medio volumen (MV) | 2 L | Botella PET | Ingredientes activos, receta compleja |
-| Jugo natural | Gran volumen (GV) | 20 L | Garrafón | Tratamiento térmico, distrib. especial |
+| **Línea 2** | Bebida carbonatada | Vidrio retornable | 330 mL | KRONES Lavatec · HEUFT SX-prewash · KRONES Modulfill HES |
+| **Línea 3** | Bebida carbonatada | PET no retornable | 1 L – 2 L | KRONES Contiform Bloc · HEUFT PRIME |
+| **Línea 7** | Agua purificada | Garrafón retornable | 20 L | KRONES Hydronomic · HEUFT PRIME |
 
-> Cada producto tiene receta independiente, secuencia Grafcet diferenciada e interacción específica con la celda robotizada, cumpliendo con los requisitos del numeral C1 de las especificaciones del curso.
+> Cada producto difiere en envase, velocidad, secuencia Grafcet, inspección y receta — cumpliendo C1 del proyecto integrador.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -58,11 +60,20 @@ ulogix-manufacturing/
   <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
   <td>
     <strong>proceso/</strong> — Módulo 1 (Intro Automatización)<br/>
-    • Investigar procesos industriales de bebidas (Mar 14) — J. Garzón<br/>
-    • Definir arquitectura ISA-95 del sistema (Mar 14) — A. Morales<br/>
+    • Definir arquitectura ISA-95 (Mar 14) — A. Morales<br/>
     • Diagramas P&ID e identificación de sensores/actuadores (Mar 17) — A. Morales<br/>
     • Descripción detallada del proceso productivo (Mar 17) — J. Garzón<br/>
-    • Definir parámetros de proceso y recetas por producto (Mar 18) — J. Díaz / J. Garzón
+    • Parámetros de proceso y recetas por producto (Mar 18) — J. Díaz / J. Garzón<br/>
+    <em>DOP/DAP: L2 (6op+5transp+2insp), L3 (6op+4transp+3insp), L7 (4op+4transp+3insp)</em>
+  </td>
+</tr>
+<tr>
+  <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
+  <td>
+    <strong>planta/</strong> — Layout funcional<br/>
+    • Layout dibujado: J.M. Beltrán (10/03/2026) · Revisado: J.J. Díaz · Aprobado: A.M. Morales<br/>
+    • 3 líneas principales + área de jarabes + tratamiento de agua + almacenamiento<br/>
+    • L2 y L3 vinculadas al corredor productivo común; L7 con espacio de maniobra para garrafones
   </td>
 </tr>
 <tr>
@@ -70,10 +81,10 @@ ulogix-manufacturing/
   <td>
     <strong>robotstudio/</strong> — Módulo 4 (Celda Robotizada)<br/>
     • Justificación y selección del robot industrial (Mar 21) — A. Quenan<br/>
-    • Diseño técnico de la celda robotizada (Mar 23) — A. Quenan / J. Beltrán<br/>
+    • Diseño técnico de la celda (Mar 23) — A. Quenan / J. Beltrán<br/>
     • Análisis de riesgos ISO 10218 (Mar 24) — A. Quenan<br/>
-    • Simulación de la celda en RobotStudio (Apr 11) — A. Quenan<br/>
-    • Exportar puntos de RobotStudio a NX (Apr 18) — A. Quenan / J. Beltrán <em>(sup: S. Sanchez)</em>
+    • Simulación en RobotStudio (Apr 11) — A. Quenan<br/>
+    • Exportar puntos RS→NX (Apr 18) — A. Quenan / J. Beltrán <em>(sup: S. Sanchez)</em>
   </td>
 </tr>
 <tr>
@@ -97,7 +108,7 @@ ulogix-manufacturing/
   <td align="center"><img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="50"/></td>
   <td>
     <strong>grafcet/ + studio-5000/</strong> — Módulos 4 y 6 (Controladores)<br/>
-    • Diseño del Grafcet de control secuencial (Mar 25) — J. Díaz<br/>
+    • Diseño del Grafcet de control secuencial, por producto y modo (Mar 25) — J. Díaz<br/>
     • Implementación Ladder en Logix Emulate (Apr 22) — J. Díaz<br/>
     • Validación funcional PLC – Gemelo Digital (Apr 29) — J. Díaz / J. Beltrán
   </td>
@@ -110,12 +121,12 @@ ulogix-manufacturing/
 
 | Módulo | Responsable | GitHub | Supervisor de par |
 |---|---|:---:|---|
-| NX / Digital Factory | Juan Manuel Beltrán Botello | [@JuanBeltran2024](https://github.com/JuanBeltran2024) | Samuel David Sanchez Cardenas |
+| NX / Digital Factory | Juan Manuel Beltrán Botello | [@JuanBeltran2024](https://github.com/JuanBeltran2024) | **Samuel D. Sanchez** |
 | RobotStudio / Celda | Andrés Felipe Quenan Pozo | [@Andres-Felipe-Quenan](https://github.com/Andres-Felipe-Quenan) | Andrés M. Morales |
 | Arquitectura ISA-95 / P&ID | Andrés Mauricio Morales Martínez | [@mora200217](https://github.com/mora200217) | Andrés F. Quenan |
 | PLC / Grafcet / Ladder | Juan José Díaz Guerrero | [@Judiazgu](https://github.com/Judiazgu) | Juan F. Triana |
-| Proceso / Recetas | Jorge Nicolas Garzón Acevedo | [@Nicolas-Eule](https://github.com/Nicolas-Eule) | Juan M. Beltrán |
-| **Supervisión NX/DF + Documentación** | **Samuel David Sanchez Cardenas** | [@samsanchezcar](https://github.com/samsanchezcar) | Jorge N. Garzón |
+| Proceso / VSM / Recetas | Jorge Nicolas Garzón Acevedo | [@Nicolas-Eule](https://github.com/Nicolas-Eule) | Juan M. Beltrán |
+| **Supervisión NX/DF · MES · GitHub/Docs** | **Samuel David Sanchez Cardenas** | [@samsanchezcar](https://github.com/samsanchezcar) | Jorge N. Garzón |
 
 **Supervisores académicos:** Carlos J. Cortés · Luis M. Méndez · Víctor H. Grisales · Ricardo Ramírez · Ubaldo García · Eduardo Barrera
 
