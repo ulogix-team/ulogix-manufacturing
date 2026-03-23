@@ -1,16 +1,20 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
-</p>
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/header-dark.svg" width="100%"/>
 
-# 🔧 NX — Siemens NX / Modelado CAD
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
+
+# nx — Siemens NX / Modelado CAD
+
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
 Modelos 3D de la línea de producción y simulaciones cinemáticas en Siemens NX.
 
 ## Contenido esperado
 
-- **modelos-3d/** — Ensamblajes y piezas de la línea en NX (.prt)
-- **simulaciones/** — Archivos de simulación de movimiento y flujo
+- `modelos-3d/` — Ensamblajes y piezas de la línea (.prt)
+- `simulaciones/` — Archivos de simulación de movimiento y flujo
 
 ## Responsable
 
-Juan M. Beltrán · [@JuanBeltran2024](https://github.com/JuanBeltran2024)
+Juan Manuel Beltrán Botello · [@JuanBeltran2024](https://github.com/JuanBeltran2024)
+
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>

@@ -1,21 +1,21 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
-</p>
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/header-dark.svg" width="100%"/>
 
-# 📋 Proceso — Análisis del Proceso Productivo
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 
-Esta carpeta contiene la documentación del análisis del proceso de fabricación de bebidas, desde la recepción de insumos hasta el despacho.
+# proceso — Análisis del Proceso Productivo
+
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
+
+Documentación del análisis del proceso de fabricación de bebidas, desde recepción de insumos hasta despacho.
 
 ## Contenido esperado
 
-- **diagramas/** — Diagramas de flujo del proceso, P&ID, instrumentación ISA, arquitectura ISA-95
-- **vsm/** — Value Stream Mapping antes y después de automatizar (por línea/producto)
-- **recetas/** — Parámetros de proceso y recetas por producto (temperatura, presión, tiempos, etc.)
+- `diagramas/` — Diagramas de flujo, P&ID, instrumentación ISA, arquitectura ISA-95
+- `vsm/` — Value Stream Mapping antes y después de automatizar, por línea y producto
+- `recetas/` — Parámetros de proceso y recetas por producto (temperatura, presión, tiempos)
 
 ## Responsable
 
-Jorge N. Garzón · [@Nicolas-Eule](https://github.com/Nicolas-Eule)
+Jorge Nicolas Garzón Acevedo · [@Nicolas-Eule](https://github.com/Nicolas-Eule)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
-</p>
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
