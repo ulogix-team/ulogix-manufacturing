@@ -12,9 +12,9 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 | Línea | Producto | Envase | Volumen | Criterio de diferenciación |
 |---|---|---|---|---|
-| **Línea 2** | Bebida carbonatada | Vidrio retornable | 330 mL | Recepción retornable, lavado, saneamiento, inspección botella vacía (HEUFT SPECTRUM II SX-prewash), etiquetado, llenado (KRONES Modulfill HES), tapado |
-| **Línea 3** | Bebida volumen medio | PET no retornable | 1 L – 2 L | Cambio de familia de envase, soplado integrado (KRONES Contiform Bloc), llenado-cierre-etiquetado con diferencias en capacidad vs. línea retornable |
-| **Línea 7** | Agua purificada | Garrafón retornable | 20 L | Gran volumen individual, tratamiento agua (KRONES Hydronomic), mayor exigencia sanitaria, tiempos unitarios mayores, logística diferenciada |
+| **Línea 1** | Bebida carbonatada | Vidrio retornable | 330 mL | Recepción retornable, lavado, saneamiento, inspección botella vacía (HEUFT SPECTRUM II SX-prewash), etiquetado, llenado (KRONES Modulfill HES), tapado |
+| **Línea 2** | Bebida volumen medio | PET no retornable | 1 L – 2 L | Cambio de familia de envase, soplado integrado (KRONES Contiform Bloc), llenado-cierre-etiquetado con diferencias en capacidad vs. línea retornable |
+| **Línea 3** | Agua purificada | Garrafón retornable | 20 L | Gran volumen individual, tratamiento agua (KRONES Hydronomic), mayor exigencia sanitaria, tiempos unitarios mayores, logística diferenciada |
 
 > Los tres productos cumplen el criterio C1 del proyecto integrador: diferencias en envase/geometría, velocidad de producción, secuencia lógica, inspección y recetas.
 
@@ -24,12 +24,12 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 | Equipo | Fabricante | Función | Línea |
 |---|---|---|---|
-| Lavatec D / LavaClassic D | KRONES | Lavado de botellas retornables | L2 |
-| HEUFT SPECTRUM II SX-prewash | HEUFT | Inspección y rechazo de retornables defectuosos antes del llenado | L2 |
+| Lavatec D / LavaClassic D | KRONES | Lavado de botellas retornables | L1 |
+| HEUFT SPECTRUM II SX-prewash | HEUFT | Inspección y rechazo de retornables defectuosos antes del llenado | L1 |
 | Modulfill HES | KRONES | Llenado higiénico bebidas carbonatadas en vidrio | L2 |
-| Contiform Bloc | KRONES | Soplado + llenado integrado para envases PET hasta 3.5 L | L3 |
-| Hydronomic | KRONES | Tratamiento y preparación de agua de proceso | L7 |
-| HEUFT PRIME | HEUFT | Inspección envases llenos (fisicoquímica en línea) | L2, L3, L7 |
+| Contiform Bloc | KRONES | Soplado + llenado integrado para envases PET hasta 3.5 L | L2 |
+| Hydronomic | KRONES | Tratamiento y preparación de agua de proceso | L3 |
+| HEUFT PRIME | HEUFT | Inspección envases llenos (fisicoquímica en línea) | L1, L2, L3 |
 
 > Estas referencias se usan como benchmark técnico, no como confirmación del inventario exacto de la planta FEMSA visitada.
 
@@ -37,23 +37,35 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 ## DOP — Diagrama de Operaciones de Proceso
 
-### Línea 2 — Vidrio retornable 330 mL
+### Línea 1 — Vidrio retornable 330 mL
 
 **Embotellado:** Ingreso botellas → Lavado (1) → Secado (2) → Saneamiento (3) → Inspección botella vacía (1) → Etiquetar (4) → Llenado (9) → Tapado (10) → Inspección final (2) → Proceso terminado
 
 **Preparación bebida:** Preparación jarabe simple (5) → Aplicar concentrado (6) → Combinar con agua preparada (7) → Carbonatación CO₂ (8)
 
-### Línea 3 — PET 1 L – 2 L
+<p align="center">
+  <img src="diagramas/Diagrama_DOP_1.png" alt="DOP_Linea_1">
+</p>
+
+### Línea 2 — PET 1.5 L
 
 **Embotellado:** Ingreso botellas → Lavado (1) → Saneamiento (2) → Inspección (1, 2) → Llenado (3) → Tapado (4) → Inspección (3) → Etiquetar (4) → Proceso terminado
 
 **Preparación bebida:** Jarabe (5) → Concentrado (6) → Agua preparada (7) → Carbonatación CO₂ (8)
 
-### Línea 7 — Garrafón 20 L
+<p align="center">
+  <img src="diagramas/Diagrama_DOP_2.png" alt="DOP_Linea_2">
+</p>
+
+### Línea 3 — Garrafón 20 L
 
 **Embotellado:** Ingreso botellas → Lavado (1) → Saneamiento (2) → Inspecciones (1, 2) → Llenado (7) → Tapado (8) → Inspección (3) → Proceso terminado
 
 **Preparación:** Solo agua tratada (sin concentrado ni carbonatación)
+
+<p align="center">
+  <img src="diagramas/Diagrama_DOP_3.png" alt="DOP_Linea_3">
+</p>
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -61,11 +73,11 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 | Línea | Operaciones | Transportes | Inspecciones | Demoras | Almacenamientos | Total |
 |---|---|---|---|---|---|---|
-| Línea 2 — 330 mL retornable | 6 | 5 | 2 | 0 | 2 | **15** |
-| Línea 3 — PET 1 L–2 L | 6 | 4 | 3 | 0 | 2 | **15** |
-| Línea 7 — Garrafón 20 L | 4 | 4 | 3 | 0 | 2 | **13** |
+| Línea 1 — 330 mL retornable | 6 | 5 | 2 | 0 | 2 | **15** |
+| Línea 2 — PET 1.5 L | 6 | 4 | 3 | 0 | 2 | **15** |
+| Línea 3 — Garrafón 25 L | 4 | 4 | 3 | 0 | 2 | **13** |
 
-**Interpretación:** La Línea 2 tiene mayor carga de transportes e inspecciones previas al llenado (envase retornable). La Línea 3 concentra su flujo en acondicionamiento PET y llenado-cierre continuo. La Línea 7 tiene menos etapas pero mayor tiempo y exigencia sanitaria por unidad.
+**Interpretación:** La Línea 1 tiene mayor carga de transportes e inspecciones previas al llenado (envase retornable). La Línea 2 concentra su flujo en acondicionamiento PET y llenado-cierre continuo. La Línea 3 tiene menos etapas pero mayor tiempo y exigencia sanitaria por unidad.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -78,7 +90,7 @@ Nivel 4  ERP / MRP — planificación semanal (pedido semanal → MRP)
 Nivel 3  MES — Power BI, OEE, analítica Python (S. Sanchez / J. Triana)
 Nivel 2  SCADA Ignition — supervisión y control proceso (J. Triana)
 Nivel 1  PLC Studio 5000 / Logix Emulate — control secuencial (J. Díaz)
-Nivel 0  Sensores / Actuadores — líneas L2, L3, L7
+Nivel 0  Sensores / Actuadores — líneas L1, L2, L3
 ```
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
@@ -87,7 +99,7 @@ Nivel 0  Sensores / Actuadores — líneas L2, L3, L7
 
 - `diagramas/` — DOP, DAP, P&ID, diagramas de instrumentación ISA
 - `vsm/` — VSM estado actual y futuro por línea (ver `ulogix-data-finance/simulacion/vsm/`)
-- `recetas/` — Parámetros de proceso y recetas por producto (Líneas 2, 3 y 7)
+- `recetas/` — Parámetros de proceso y recetas por producto (Líneas 1, 2 y 3)
 
 ## Responsables
 
