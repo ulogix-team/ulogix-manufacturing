@@ -8,6 +8,8 @@
 
 Diseño de la distribución física de la planta y planos de layout.
 
+![Diagrama de Layout](layout/Diagrama_Layout.png)
+
 ## Contenido esperado
 
 - `layout/` — Planos 2D de distribución (Draw.io / AutoCAD / NX)
