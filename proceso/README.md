@@ -37,6 +37,24 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 ## DTP — Diagrama de Transformación de Producto
 
+### Línea 1 — Vidrio retornable 330 mL
+
+<p align="center">
+  <img src="diagramas/Diagrama_DTP_1.png" alt="DTP_Linea_1">
+</p>
+
+### Línea 2 — PET 1.5 L
+
+<p align="center">
+  <img src="diagramas/Diagrama_DTP_2.png" alt="DTP_Linea_2">
+</p>
+
+### Línea 3 — Garrafón 20 L
+
+<p align="center">
+  <img src="diagramas/Diagrama_DTP_3.png" alt="DTP_Linea_3">
+</p>
+
 ## DOP — Diagrama de Operaciones de Proceso
 
 ### Línea 1 — Vidrio retornable 330 mL
