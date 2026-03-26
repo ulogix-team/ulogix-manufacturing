@@ -13,8 +13,8 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 | Línea | Producto | Envase | Volumen | Criterio de diferenciación |
 |---|---|---|---|---|
 | **Línea 1** | Bebida carbonatada | Vidrio retornable | 330 mL | Recepción retornable, lavado, saneamiento, inspección botella vacía (HEUFT SPECTRUM II SX-prewash), etiquetado, llenado (KRONES Modulfill HES), tapado |
-| **Línea 2** | Bebida volumen medio | PET no retornable | 1 L – 2 L | Cambio de familia de envase, soplado integrado (KRONES Contiform Bloc), llenado-cierre-etiquetado con diferencias en capacidad vs. línea retornable |
-| **Línea 3** | Agua purificada | Garrafón retornable | 20 L | Gran volumen individual, tratamiento agua (KRONES Hydronomic), mayor exigencia sanitaria, tiempos unitarios mayores, logística diferenciada |
+| **Línea 2** | Bebida volumen medio | PET no retornable | 1.5 L | Cambio de familia de envase, soplado integrado (KRONES Contiform Bloc), llenado-cierre-etiquetado con diferencias en capacidad vs. línea retornable |
+| **Línea 3** | Agua purificada | Garrafón retornable | 25 L | Gran volumen individual, tratamiento agua (KRONES Hydronomic), mayor exigencia sanitaria, tiempos unitarios mayores, logística diferenciada |
 
 > Los tres productos cumplen el criterio C1 del proyecto integrador: diferencias en envase/geometría, velocidad de producción, secuencia lógica, inspección y recetas.
 
@@ -39,29 +39,17 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 ### Línea 1 — Vidrio retornable 330 mL
 
-**Embotellado:** Ingreso botellas → Lavado (1) → Secado (2) → Saneamiento (3) → Inspección botella vacía (1) → Etiquetar (4) → Llenado (9) → Tapado (10) → Inspección final (2) → Proceso terminado
-
-**Preparación bebida:** Preparación jarabe simple (5) → Aplicar concentrado (6) → Combinar con agua preparada (7) → Carbonatación CO₂ (8)
-
 <p align="center">
   <img src="diagramas/Diagrama_DOP_1.png" alt="DOP_Linea_1">
 </p>
 
 ### Línea 2 — PET 1.5 L
 
-**Embotellado:** Ingreso botellas → Lavado (1) → Saneamiento (2) → Inspección (1, 2) → Llenado (3) → Tapado (4) → Inspección (3) → Etiquetar (4) → Proceso terminado
-
-**Preparación bebida:** Jarabe (5) → Concentrado (6) → Agua preparada (7) → Carbonatación CO₂ (8)
-
 <p align="center">
   <img src="diagramas/Diagrama_DOP_2.png" alt="DOP_Linea_2">
 </p>
 
 ### Línea 3 — Garrafón 20 L
-
-**Embotellado:** Ingreso botellas → Lavado (1) → Saneamiento (2) → Inspecciones (1, 2) → Llenado (7) → Tapado (8) → Inspección (3) → Proceso terminado
-
-**Preparación:** Solo agua tratada (sin concentrado ni carbonatación)
 
 <p align="center">
   <img src="diagramas/Diagrama_DOP_3.png" alt="DOP_Linea_3">
