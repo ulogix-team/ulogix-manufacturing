@@ -35,6 +35,8 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
+## DTP — Diagrama de Transformación de Producto
+
 ## DOP — Diagrama de Operaciones de Proceso
 
 ### Línea 1 — Vidrio retornable 330 mL
