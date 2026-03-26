@@ -77,13 +77,32 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
-## DAP — Resumen Diagrama de Análisis de Proceso
+## DAP — Diagrama de Análisis de Proceso
 
-| Línea | Operaciones | Transportes | Inspecciones | Demoras | Almacenamientos | Total |
+### Línea 1 — Vidrio retornable 330 mL
+
+<p align="center">
+  <img src="diagramas/Diagrama_DAP_1_(Dark).png" alt="DAP_Linea_1">
+</p>
+
+### Línea 2 — PET 1.5 L
+
+<p align="center">
+  <img src="diagramas/Diagrama_DAP_2_(Dark).png" alt="DAP_Linea_2">
+</p>
+
+### Línea 3 — Garrafón 20 L
+
+<p align="center">
+  <img src="diagramas/Diagrama_DAP_3_(Dark).png" alt="DAP_Linea_3">
+</p>
+
+### Resumen Diagrama de Análisis de Proceso
+| Línea | Operaciones | Transportes | Demoras | Inspecciones | Almacenamientos | Total |
 |---|---|---|---|---|---|---|
-| Línea 1 — 330 mL retornable | 6 | 5 | 2 | 0 | 2 | **15** |
-| Línea 2 — PET 1.5 L | 6 | 4 | 3 | 0 | 2 | **15** |
-| Línea 3 — Garrafón 25 L | 4 | 4 | 3 | 0 | 2 | **13** |
+| Línea 1 — 330 mL retornable | 6 | 5 | 0 | 2 | 2 | **15** |
+| Línea 2 — PET 1.5 L | 5 | 6 | 0 | 2 | 2 | **15** |
+| Línea 3 — Garrafón 25 L | 4 | 4 | 0 | 2 | 2 | **12** |
 
 **Interpretación:** La Línea 1 tiene mayor carga de transportes e inspecciones previas al llenado (envase retornable). La Línea 2 concentra su flujo en acondicionamiento PET y llenado-cierre continuo. La Línea 3 tiene menos etapas pero mayor tiempo y exigencia sanitaria por unidad.
 
