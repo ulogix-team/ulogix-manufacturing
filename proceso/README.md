@@ -108,6 +108,30 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
+## VSM - Mapa de Flujo de Valor
+
+
+### Línea 1 — Vidrio retornable 330 mL
+
+<p align="center">
+  <img src="vsm/Diagrama_VSM_1_(Light).png" alt="VSM_Linea_1">
+</p>
+
+### Línea 2 — PET 1.5 L
+
+<p align="center">
+  <img src="vsm/Diagrama_VSM_2_(Light).png" alt="VSM_Linea_2">
+</p>
+
+### Línea 3 — Garrafón 20 L
+
+<p align="center">
+  <img src="vsm/Diagrama_VSM_3_(Light).png" alt="VSM_Linea_3">
+</p>
+
+
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
+
 ## Arquitectura ISA-95
 
 La línea de producción se estructura según los niveles ISA-95:
@@ -124,7 +148,7 @@ Nivel 0  Sensores / Actuadores — líneas L1, L2, L3
 
 ## Contenido de esta Carpeta
 
-- `diagramas/` — DOP, DAP, P&ID, diagramas de instrumentación ISA
+- `diagramas/` — DTP, DOP, DAP, P&ID
 - `vsm/` — VSM estado actual y futuro por línea (ver `ulogix-data-finance/simulacion/vsm/`)
 - `recetas/` — Parámetros de proceso y recetas por producto (Líneas 1, 2 y 3)
 
