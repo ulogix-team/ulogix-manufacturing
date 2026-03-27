@@ -133,6 +133,7 @@ Los diagramas de análisis de proceso evidencian que una proporción significati
   <img src="vsm/Diagrama_VSM_3_(Light).png" alt="VSM_Linea_3">
 </p>
 
+Los diagramas VSM muestran que el tiempo total de proceso por ejemplo de la línea 1 (LT ≈ 97.2 s) es considerablemente mayor que el tiempo de valor agregado (VA ≈ 0.771 s), lo cual evidencia una alta proporción de tiempos de espera e inventario en proceso. Se identifica que el proceso de llenado tiene una disponibilidad relativamente menor (≈85%), lo que lo posiciona como un cuello de botella crítico debido a paradas por mantenimiento, ajustes de presión o control de volumen. Sin embargo, el mayor cuello de botella se encuentra en el paletizado, con una disponibilidad de aproximadamente 73% y un tiempo de ciclo significativamente mayor (0.15 s), asociado a la manipulación manual de cajas. Esto limita el flujo de salida de toda la línea, generando acumulación de inventario previo a esta estación. Una propuesta de automatización permitiría aumentar la disponibilidad, reducir variabilidad y mejorar la sincronización con el takt time requerido por la demanda.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
