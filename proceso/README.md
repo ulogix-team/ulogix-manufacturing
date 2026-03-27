@@ -55,6 +55,8 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
   <img src="diagramas/Diagrama_DTP_3.png" alt="DTP_Linea_3">
 </p>
 
+Los diagramas de transformación evidencian que las variables críticas del proceso se concentran en saneamiento (nivel de limpieza), llenado (volumen en mL), tapado (presión interna) y etiquetado (adhesión). Estas variables influyen directamente en la calidad del producto final, pero también en la velocidad de producción, ya que requieren control preciso y pueden generar rechazos. Se identifica que el llenado es una etapa sensible debido a la necesidad de mantener exactitud volumétrica y presión adecuada en bebidas gaseosas, lo cual puede reducir la disponibilidad efectiva del equipo por ajustes o mantenimiento. Asimismo, el proceso final de encajonado y paletizado representa una transformación logística que impacta significativamente el throughput total de la línea, especialmente al realizarse manualmente.
+
 ## DOP — Diagrama de Operaciones de Proceso
 
 ### Línea 1 — Vidrio retornable 330 mL
@@ -74,6 +76,8 @@ Análisis del proceso de fabricación y despacho en la planta de bebidas FEMSA /
 <p align="center">
   <img src="diagramas/Diagrama_DOP_3.png" alt="DOP_Linea_3">
 </p>
+
+Los diagramas de análisis de proceso evidencian que una proporción significativa de las actividades corresponde a transporte (6) e inspección (2), mientras que solo 5 corresponden a operaciones que agregan valor directo al producto. Esto indica un potencial de mejora en la reducción de movimientos innecesarios mediante mejor distribución de planta o automatización del manejo de materiales. El tiempo más alto se observa en saneamiento de botellas y en la recepción de preformas, mientras que el llenado presenta un tiempo considerable en relación con otras operaciones productivas. La presencia de múltiples transportes intermedios incrementa el lead time total del proceso y sugiere que la eficiencia global puede incrementarse mediante integración de equipos o automatización del flujo entre estaciones.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
