@@ -45,9 +45,9 @@ ulogix-manufacturing/
 
 | Línea | Producto | Envase | Volumen | Maquinaria principal |
 |---|---|---|---|---|
-| **Línea 2** | Bebida carbonatada | Vidrio retornable | 330 mL | KRONES Lavatec · HEUFT SX-prewash · KRONES Modulfill HES |
-| **Línea 3** | Bebida carbonatada | PET no retornable | 1 L – 2 L | KRONES Contiform Bloc · HEUFT PRIME |
-| **Línea 7** | Agua purificada | Garrafón retornable | 20 L | KRONES Hydronomic · HEUFT PRIME |
+| **Línea 1** | Bebida carbonatada | Vidrio retornable | 330 mL | KRONES Lavatec · HEUFT SX-prewash · KRONES Modulfill HES |
+| **Línea 2** | Bebida carbonatada | PET no retornable | 1.5 L | KRONES Contiform Bloc · HEUFT PRIME |
+| **Línea 3** | Agua purificada | Garrafón retornable | 25 L | KRONES Hydronomic · HEUFT PRIME |
 
 > Cada producto difiere en envase, velocidad, secuencia Grafcet, inspección y receta — cumpliendo C1 del proyecto integrador.
 
