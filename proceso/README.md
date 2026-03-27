@@ -77,7 +77,7 @@ Los diagramas de transformación evidencian que las variables críticas del proc
   <img src="diagramas/Diagrama_DOP_3.png" alt="DOP_Linea_3">
 </p>
 
-Los diagramas de análisis de proceso evidencian que una proporción significativa de las actividades corresponde a transporte (6) e inspección (2), mientras que solo 5 corresponden a operaciones que agregan valor directo al producto. Esto indica un potencial de mejora en la reducción de movimientos innecesarios mediante mejor distribución de planta o automatización del manejo de materiales. El tiempo más alto se observa en saneamiento de botellas y en la recepción de preformas, mientras que el llenado presenta un tiempo considerable en relación con otras operaciones productivas. La presencia de múltiples transportes intermedios incrementa el lead time total del proceso y sugiere que la eficiencia global puede incrementarse mediante integración de equipos o automatización del flujo entre estaciones.
+Los diagramas de operaciones de proceso muestran una secuencia lineal de operaciones con múltiples etapas de transporte entre procesos de lavado, saneamiento, inspección, llenado y tapado. El almacenamiento final sugiere que la capacidad de salida del sistema puede verse limitada por operaciones posteriores, lo cual es consistente con la necesidad de mejorar la automatización en la etapa de manipulación del producto terminado.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -108,7 +108,7 @@ Los diagramas de análisis de proceso evidencian que una proporción significati
 | Línea 2 — PET 1.5 L | 5 | 6 | 0 | 2 | 2 | **15** |
 | Línea 3 — Garrafón 25 L | 4 | 4 | 0 | 2 | 2 | **12** |
 
-**Interpretación:** La Línea 1 tiene mayor carga de transportes e inspecciones previas al llenado (envase retornable). La Línea 2 concentra su flujo en acondicionamiento PET y llenado-cierre continuo. La Línea 3 tiene menos etapas pero mayor tiempo y exigencia sanitaria por unidad.
+Los diagramas de análisis de proceso evidencian que una proporción significativa de las actividades corresponde a transporte (6) e inspección (2), mientras que solo 5 corresponden a operaciones que agregan valor directo al producto. Esto indica un potencial de mejora en la reducción de movimientos innecesarios mediante mejor distribución de planta o automatización del manejo de materiales. El tiempo más alto se observa en saneamiento de botellas y en la recepción de preformas, mientras que el llenado presenta un tiempo considerable en relación con otras operaciones productivas. La presencia de múltiples transportes intermedios incrementa el lead time total del proceso y sugiere que la eficiencia global puede incrementarse mediante integración de equipos o automatización del flujo entre estaciones.
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
