@@ -1,0 +1,280 @@
+MODULE Module1
+    PERS num SpeedValue := 1000;
+    VAR speeddata vel_gantry;
+    VAR speeddata vel_gantry_p;
+    CONST jointtarget jHome := [[0,0,0,0,0,0],[0,0,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pick := [[0,0,0,0,0,0],[0,-929.02,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pick2 := [[0,0,0,0,0,0],[0,-461.66,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet11 := [[0,0,0,0,0,0],[-1775.6,-461.66,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet12 := [[0,0,0,0,0,0],[-1775.6,-779.43,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet21 := [[0,0,0,0,0,0],[1728,-461.66,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet22 := [[0,0,0,0,0,0],[1728,-779.43,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pick3 := [[0,0,0,0,0,0],[0,-200.55,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet13 := [[0,0,0,0,0,0],[-1775.6,-200.55,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet14 := [[0,0,0,0,0,0],[-1775.6,-518.32,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet23 := [[0,0,0,0,0,0],[1728,-200.55,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet24 := [[0,0,0,0,0,0],[1728,-514.43,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pick4 := [[0,0,0,0,0,0],[0,60.56,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet15 := [[0,0,0,0,0,0],[-1775.6,60.56,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet16 := [[0,0,0,0,0,0],[-1775.6,-257.21,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet25 := [[0,0,0,0,0,0],[1728,60.56,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet26 := [[0,0,0,0,0,0],[1728,-249.43,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pick5 := [[0,0,0,0,0,0],[0,321.67,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet17 := [[0,0,0,0,0,0],[-1775.6,321.67,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet18 := [[0,0,0,0,0,0],[-1775.6,3.9,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet27 := [[0,0,0,0,0,0],[1728,321.67,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet28 := [[0,0,0,0,0,0],[1728,15.57,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pick6 := [[0,0,0,0,0,0],[0,582.78,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet19 := [[0,0,0,0,0,0],[-1775.6,582.78,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet110 := [[0,0,0,0,0,0],[-1775.6,265.01,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet29 := [[0,0,0,0,0,0],[1728,582.78,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet210 := [[0,0,0,0,0,0],[1728,280.57,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pick7 := [[0,0,0,0,0,0],[0,843.89,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet111 := [[0,0,0,0,0,0],[-1775.6,843.89,0,9E+09,9E+09,9E+09]];
+    CONST jointtarget jT_Pallet112 := [[0,0,0,0,0,0],[-1775.6,526.12,0,9E+09,9E+09,9E+09]];
+    
+    PROC main()
+        SetDO DO_ST_Conveyor,0;
+        SetDO DO_Gripper_On,0;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_ST_Pick,0;
+        SetDO DO_ST_Conveyor2,0;
+        SetDO DO_ST_Pick2,0;
+        SetDO DO_ST_Detach,0;
+        SetDO DO_ST_Detach2,0;
+        
+        !Ciclo 1 Pallet 1
+        WaitUntil DI_Start=1;
+        SetDO DO_ST_Conveyor,1;
+        WaitUntil DI_OnPosition=1;
+        Path_10;
+        SetDO DO_ST_Pick,1;
+        WaitUntil DI_OnAttach=1;
+        SetDO DO_ST_Conveyor2,1;
+        Path_20;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        SetDO DO_ST_Detach,1;
+        WaitUntil DI_OnDetach=1;
+        Path_30;
+        
+        !Ciclo 1 Pallet 2
+        WaitUntil DI_OnPosition2=1;
+        Path_10;
+        SetDO DO_ST_Pick2,1;
+        WaitUntil DI_OnAttach2=1;
+        Path_40;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        SetDO DO_ST_Detach2,1;
+        WaitUntil DI_OnDetach2=1;
+        Path_50;
+        
+        !Ciclo 2 Pallet 1
+        Path_10;
+        Path_60;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_70;
+        
+        !Ciclo 2 Pallet 2
+        Path_10;
+        Path_80;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_90;
+        
+        !Ciclo 3 Pallet 1
+        Path_10;
+        Path_100;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_110;
+        
+        !Ciclo 3 Pallet 2
+        Path_10;
+        Path_120;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_130;
+        
+        !Ciclo 4 Pallet 1
+        Path_10;
+        Path_140;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_150;
+        
+        !Ciclo 4 Pallet 2
+        Path_10;
+        Path_160;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_170;
+        
+        !Ciclo 5 Pallet 1
+        Path_10;
+        Path_180;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_190;
+        
+        !Ciclo 5 Pallet 2
+        Path_10;
+        Path_200;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_210;
+        
+        !Ciclo 6 Pallet 1
+        Path_10;
+        Path_220;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_Gripper_On,1;
+        Path_230;
+        
+        SetDO DO_ST_Conveyor,0;
+        SetDO DO_Gripper_On,0;
+        SetDO DO_Gripper_Off,0;
+        SetDO DO_ST_Pick,0;
+        SetDO DO_ST_Conveyor2,0;
+        SetDO DO_ST_Pick2,0;
+        SetDO DO_ST_Detach,0;
+        SetDO DO_ST_Detach2,0;
+    ENDPROC
+    PROC UpdateSpeed()
+        vel_gantry := [600, 500, SpeedValue, 400];
+        vel_gantry_p := [600, 500, 400, 400];
+    ENDPROC
+    PROC Path_10()
+        UpdateSpeed;
+        SetDO DO_Gripper_Res,1;
+        SetDO DO_Gripper_Res,0;
+        MoveAbsJ jT_Pick,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+        SetDO DO_Gripper_On,0;
+        SetDO DO_Gripper_Off,1;
+        WaitTime 1;
+        WaitUntil DI_Gripper_Executed=1;
+    ENDPROC
+    PROC Path_20()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick2,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet11,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet12,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_30()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet11,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick2,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_40()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick2,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet21,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet22,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_50()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet21,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick2,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_60()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick3,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet13,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet14,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_70()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet13,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick3,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_80()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick3,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet23,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet24,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_90()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet23,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick3,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_100()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick4,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet15,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet16,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_110()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet15,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick4,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_120()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick4,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet25,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet26,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_130()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet25,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick4,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_140()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick5,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet17,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet18,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_150()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet17,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick5,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_160()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick5,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet27,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet28,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_170()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet27,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick5,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_180()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick6,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet19,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet110,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_190()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet19,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick6,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_200()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick6,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet29,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet210,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_210()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet29,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick6,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_220()
+        UpdateSpeed;
+        MoveAbsJ jT_Pick7,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet111,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pallet112,vel_gantry_p,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_230()
+        UpdateSpeed;
+        MoveAbsJ jT_Pallet111,vel_gantry,z10,Tool\WObj:=Workobject_1;
+        MoveAbsJ jT_Pick7,vel_gantry,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+ENDMODULE
