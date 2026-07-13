@@ -1,0 +1,4 @@
+MODULE CalibData
+    PERS tooldata Tool:=[TRUE,[[0,0,175.123],[1,0,0,0]],[1,[0,0,1],[1,0,0,0],0,0,0]];
+    PERS wobjdata Workobject_1:=[FALSE,TRUE,"",[[923.109,-1381.62,-20],[0,0.258819,0.965926,0]],[[0,0,0],[1,0,0,0]]];
+ENDMODULE

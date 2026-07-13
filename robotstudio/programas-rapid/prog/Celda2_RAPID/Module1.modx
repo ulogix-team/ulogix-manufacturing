@@ -1,0 +1,239 @@
+MODULE Module1
+    PERS num SpeedValue := 500;
+    VAR speeddata Speed;
+    CONST robtarget Home:=[[77.509866867,1550.60878891,-1648.938265473],[0.836516304,-0.129409522,-0.482962913,-0.224143868],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_BPick:=[[0,0,-300],[1,0,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Pick:=[[0,0,0],[1,0,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Pick2:=[[0,0,-500],[1,0,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack:=[[33.493242206,1581.794999888,-149],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack2:=[[-486.122,1881.795,-149],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack11:=[[33.493242206,1581.794999888,-149],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack12:=[[-486.122,1881.795,-149],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack21:=[[33.477242206,1581.765999888,-479],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack22:=[[-486.138,1881.766,-479],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack31:=[[33.477242206,1581.765999888,-809],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack32:=[[-486.138,1881.766,-809],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack41:=[[33.477242206,1581.765999888,-1139],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack42:=[[-486.161,1881.726,-1138.928],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack51:=[[33.477242206,1581.765999888,-1469],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget T_Rack52:=[[-486.138,1881.766,-1469],[0.683012702,-0.183012702,-0.683012702,-0.183012702],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !***********************************************************
+    !
+    ! Module:  Module1
+    !
+    ! Description:
+    !   <Insert description here>
+    !
+    ! Author: Felipe Quenan
+    !
+    ! Version: 1.0
+    !
+    !***********************************************************
+    
+    
+    !***********************************************************
+    !
+    ! Procedure main
+    !
+    !   This is the entry point of your program
+    !
+    !***********************************************************
+    PROC main()
+        SetDO DO_ST_Conveyor,0;
+        SetDO DO_ST_Pick,0;
+        SetDO DO_ST_Dettach,0;
+        SetDO DO_End_Cycle1,0;
+        SetDO DO_ST_Conveyor2,0;
+        SetDO DO_ST_Pick2,0;
+        SetDO DO_ST_Dettach2,0;
+        SetDO DO_ST_Move,0;
+        
+        SetDO DO_Time_Pallet, 1;
+        
+        WaitUntil DI_Start=1;
+        SetDO DO_ST_Conveyor,1;
+        Before_Pick;
+        Path;
+        SetDO DO_ST_Pick,1;
+        WaitUntil DI_OnAttach=1;
+        Path_10;
+        SetDO DO_ST_Conveyor2,1;
+        Path_20;
+        Path_30;
+        SetDO DO_ST_Dettach,1;
+        Path_40;
+        Path_50;
+        SetDO DO_ST_Pick2,1;
+        WaitUntil DI_OnAttach2=1;
+        Path_10;
+        Path_20;
+        WaitTime 0.3;
+        SetDO DO_ST_Move,1;
+        Path_30;
+        SetDO DO_ST_Dettach2,1;
+        Path_40;
+        Path_50;
+        Path_10;
+        Path_60;
+        Path_70;
+        Path_80;
+        Path_50;
+        Path_10;
+        Path_60;
+        Path_70;
+        Path_80;
+        Path_50;
+        Path_10;
+        Path_90;
+        Path_100;
+        Path_110;
+        Path_50;
+        Path_10;
+        Path_90;
+        Path_100;
+        Path_110;
+        Path_50;
+        Path_10;
+        Path_120;
+        Path_130;
+        Path_140;
+        Path_50;
+        Path_10;
+        Path_120;
+        Path_130;
+        Path_140;
+        Path_50;
+        Path_10;
+        Path_150;
+        Path_160;
+        Path_170;
+        Path_50;
+        Path_10;
+        Path_150;
+        Path_160;
+        Path_170;
+        Path_50;
+        
+        SetDO DO_Gripper,1;
+        
+        SetDO DO_ST_Conveyor,0;
+        SetDO DO_ST_Pick,0;
+        SetDO DO_ST_Dettach,0;
+        SetDO DO_End_Cycle1,0;
+        SetDO DO_ST_Conveyor2,0;
+        SetDO DO_ST_Pick2,0;
+        SetDO DO_ST_Dettach2,0;
+        SetDO DO_ST_Move,0;
+    ENDPROC
+    
+    PROC UpdateSpeed()
+        Speed := [SpeedValue,SpeedValue,5000,1000];
+    ENDPROC
+
+    PROC Before_Pick()
+        UpdateSpeed;
+        MoveJ Home,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveJ T_BPick,Speed,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path()
+        UpdateSpeed;
+        MoveJ T_BPick,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveJ T_Pick,Speed,fine,Tool\WObj:=Workobject_1;
+        SetDO DO_Gripper,1;
+    ENDPROC
+    PROC Path_10()
+        UpdateSpeed;
+        MoveJ T_Pick,Speed,fine,Tool\WObj:=Workobject_1;
+        MoveJ T_Pick2,Speed,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_20()
+        UpdateSpeed;
+        ConfL\Off;
+        MoveL T_Pick2,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack11,Speed,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_30()
+        UpdateSpeed;
+        MoveL T_Rack11,Speed,fine,Tool\WObj:=Workobject_1;
+        MoveL T_Rack12,Speed,fine,Tool\WObj:=Workobject_1;
+        SetDO DO_Gripper,0;
+    ENDPROC
+    PROC Path_40()
+        UpdateSpeed;
+        MoveL T_Rack11,Speed,fine,Tool\WObj:=Workobject_1;
+        ConfL\On;
+    ENDPROC
+    PROC Path_50()
+        UpdateSpeed;
+        MoveJ T_Pick2,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveJ T_Pick,Speed,fine,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_60()
+        UpdateSpeed;
+        ConfL\Off;
+        MoveL T_Pick2,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack21,Speed,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_70()
+        UpdateSpeed;
+        MoveL T_Rack21,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack22,Speed,z10,Tool\WObj:=Workobject_1;
+        SetDO DO_Gripper,0;
+    ENDPROC
+    PROC Path_80()
+        UpdateSpeed;
+        MoveL T_Rack21,Speed,fine,Tool\WObj:=Workobject_1;
+        ConfL\On;
+    ENDPROC
+    PROC Path_90()
+        UpdateSpeed;
+        ConfL\Off;
+        MoveL T_Pick2,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack31,Speed,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_100()
+        UpdateSpeed;
+        MoveL T_Rack31,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack32,Speed,z10,Tool\WObj:=Workobject_1;
+        SetDO DO_Gripper,0;
+    ENDPROC
+    PROC Path_110()
+        UpdateSpeed;
+        MoveL T_Rack31,Speed,fine,Tool\WObj:=Workobject_1;
+        ConfL\On;
+    ENDPROC
+    PROC Path_120()
+        UpdateSpeed;
+        ConfL\Off;
+        MoveL T_Pick2,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack41,Speed,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_130()
+        UpdateSpeed;
+        MoveL T_Rack41,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack42,Speed,z10,Tool\WObj:=Workobject_1;
+        SetDO DO_Gripper,0;
+    ENDPROC
+    PROC Path_140()
+        UpdateSpeed;
+        MoveL T_Rack41,Speed,fine,Tool\WObj:=Workobject_1;
+        ConfL\On;
+    ENDPROC
+    PROC Path_150()
+        UpdateSpeed;
+        ConfL\Off;
+        MoveL T_Pick2,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack51,Speed,z10,Tool\WObj:=Workobject_1;
+    ENDPROC
+    PROC Path_160()
+        UpdateSpeed;
+        MoveL T_Rack51,Speed,z10,Tool\WObj:=Workobject_1;
+        MoveL T_Rack52,Speed,z10,Tool\WObj:=Workobject_1;
+        SetDO DO_Gripper,0;
+    ENDPROC
+    PROC Path_170()
+        UpdateSpeed;
+        MoveL T_Rack51,Speed,fine,Tool\WObj:=Workobject_1;
+        ConfL\On;
+    ENDPROC
+ENDMODULE
