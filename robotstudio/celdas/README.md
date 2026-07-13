@@ -17,6 +17,7 @@ La celda cuenta con vallado perimetral, puerta con enclavamiento, y cortinas de 
 
 ### 1. Función y proceso
 Paletizado automático alternado de dos productos: capas de cajones retornables de 330 ml (9 cajones/capa, 6 capas/pallet) y capas de paquetes termoformados PET de 1.5 L (28 paquetes/capa, 5 capas/pallet). El sistema recibe el producto por una banda de infeed que alterna capa a capa entre ambos tipos, y lo distribuye hacia dos líneas de outfeed independientes según el producto detectado.
+El archivo de modelado cad se encuentra disponible en [Celda1](cad/Celda1.zip)
 
 ### 2. Estructura mecánica y ejes de movimiento
 | **Elemento** | **Especificación** |
@@ -65,6 +66,22 @@ Paletizado automático alternado de dos productos: capas de cajones retornables 
 - 2x torres de señalización Werma KS72
 - Freno electromagnético integrado en el motor MU 300 (retención de posición vertical)
 
+## Resumen de costos
+
+**Total estimado: ~US$108,143**
+
+| Categoría | Peso aproximado en el total |
+|---|---|
+| Transportadores (8x Interroll PM 9710) | ~41% — el ítem dominante en esta celda |
+| Controlador + servomotores (IRC5 + MU300 + MU200) | ~21% |
+| Estructura mecánica (ejes lineales Bosch Rexroth, perfiles, gripper manufacturado) | ~24% |
+| Seguridad (vallado, cortinas, interlock, paros, torres) | ~5% |
+| Sistema neumático (cilindros, válvulas, VPPM) | ~3% |
+| Protecciones eléctricas, tablero y HMI | ~1% |
+
+**Nivel de confianza**: bajo para IRC5+servomotores y ejes lineales Bosch Rexroth (configuración no estándar, sin precio público); medio para el gripper y estructura manufacturada (estimación de costo de material + maquinado). Alto para componentes de catálogo (Festo, ABB, sensores Pepperl+Fuchs).
+
+
 # Manipulador Articulado ABB IRB 5710
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
 
@@ -81,6 +98,7 @@ La celda está delimitada por un perímetro de seguridad con vallado modular, pu
 ### 1. Función y proceso
 
 Paletizado automático de garrafones de 25 litros de agua. El robot recibe los garrafones desde una banda transportadora de infeed y los deposita sobre un pallet con rack metálico, formando unidades de 5 capas × 6 posiciones. El robot manipula 3 garrafones por ciclo mediante un gripper de vacío de 3 ventosas.
+El archivo de modelado cad se encuentra disponible en [Celda2](cad/Celda2.7z)
 
 ### 2. Estructura mecánica
 
@@ -131,5 +149,20 @@ Paletizado automático de garrafones de 25 litros de agua. El robot recibe los g
 - 2x paros de emergencia (EAO Serie 45, 2NC, en puerta; EAO Serie 84 Smart-Box en HMI)
 - 2x torres de señalización Werma KS72
 - Avisos de advertencia normalizados: tipo "peligro" en la puerta de acceso, tipo "atención" en las zonas de muting
+
+## Resumen de costos
+
+**Total estimado: ~US$132,046**
+
+| Categoría | Peso aproximado en el total |
+|---|---|
+| Robot + controlador (IRB 5710 + OmniCore V250XT) | ~66% del total — el ítem dominante |
+| Transportadores (5x Interroll PM 9710) | ~21% |
+| Gripper + sistema neumático de vacío | ~4% |
+| Seguridad (vallado, cortinas, interlock, paros, torres) | ~4% |
+| Protecciones eléctricas y tablero | ~1% |
+| HMI y otros | ~1% |
+
+**Nivel de confianza**: bajo para robot, controlador y transportadores (ABB e Interroll no publican precio, se cotiza por proyecto — estimado con base en rangos de mercado comparables). Alto para componentes de catálogo estándar (Festo, ABB protecciones, ReeR, EAO, Werma).
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
