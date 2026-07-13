@@ -78,4 +78,58 @@ La celda está delimitada por un perímetro de seguridad con vallado modular, pu
 
 ## Diseño
 
+### 1. Función y proceso
+
+Paletizado automático de garrafones de 25 litros de agua. El robot recibe los garrafones desde una banda transportadora de infeed y los deposita sobre un pallet con rack metálico, formando unidades de 5 capas × 6 posiciones. El robot manipula 3 garrafones por ciclo mediante un gripper de vacío de 3 ventosas.
+
+### 2. Estructura mecánica
+
+| Elemento | Especificación |
+|---|---|
+| Robot | ABB IRB 5710-110/2.3 (110 kg de carga, 2.3 m de alcance) |
+| Controlador | ABB OmniCore V250XT |
+| Software de programación | RobotStudio, RobotWare 7.2 |
+| Carga manipulada por ciclo | 3 garrafones + gripper ≈ 90 kg (dentro de la capacidad de 110 kg del robot) |
+| Configuración de pallet | 5 capas × 6 posiciones sobre rack metálico |
+
+### 3. Efector final (gripper)
+
+- 3 ventosas neumáticas tipo fuelle (2.5 pliegues), diámetro ~180-200 mm
+- Punto de contacto: tapa y hombro del garrafón, hasta casi el cuerpo (~270 mm de diámetro disponible)
+- Nivel de vacío de trabajo objetivo: -0.30 bar (dimensionado para minimizar tiempo de ciclo con la superficie de contacto disponible)
+- 3 circuitos de vacío completamente independientes (uno por ventosa), para detección individual de fallo de sujeción por garrafón
+
+### 4. Sistema neumático (circuito de vacío)
+
+| Función | Componente | Cantidad |
+|---|---|---|
+| Generación de vacío (alto caudal, válvula y sensor integrados) | Festo OVEM-14-L-B-QO-CE-N-1P | 3 (uno por ventosa) |
+| Filtro de vacío (cuerpo transparente, inspección visual) | Festo VAF-PK-6 | 3 |
+| Acumulador de vacío (punto de uso, liviano para no afectar el payload) | Festo CRVZS-0.1 (combinable en paralelo si se requiere más volumen) | 3 |
+| Acondicionamiento de aire de entrada | Festo MS4-LFR-1/4-D6-C-P-M-AG-BAR-B | 1 (centralizado) |
+
+### 5. Transporte de material
+
+- 5x bandas motorizadas Interroll PM 9710 en la salida de pallets (outfeed), capacidad muy por encima de la carga real (~800-850 kg por pallet)
+
+### 6. Sistema eléctrico
+
+| Circuito | Protección |
+|---|---|
+| Alimentación OmniCore V250XT (robot + drives) | Breaker ABB S203-K32 (3×32 A) + RCD tipo B ABB F204B |
+| Circuito de control 24VDC | Fuente ABB CP-E 24/10.0 |
+| Cargas individuales de 24VDC (HMI, puerta, torres, cortinas/interfaces) | 7x mini-breakers ABB S201-C1 |
+| Gabinete | Schneider NSYCRN75250, IP66 |
+| Interfaz operador | HMI ABB CP620 |
+
+### 7. Seguridad
+
+- Vallado perimetral modular Satech ImpactGuard (malla 20×100 mm, absorción de impacto 2200 J), radio de riesgo calculado a partir del alcance del robot (2.3 m) + gripper + garrafón en la postura más desfavorable
+- Puerta de acceso con enclavamiento Schmersal AZM 415
+- 2x cortinas de luz ReeR Admiral AD 1501 con interfaz de muting SR ONE M, en infeed y outfeed
+- 1x cortina de control de acceso ReeR Admiral AD 2B con interfaz SR ONE (sin muting)
+- 2x paros de emergencia (EAO Serie 45, 2NC, en puerta; EAO Serie 84 Smart-Box en HMI)
+- 2x torres de señalización Werma KS72
+- Avisos de advertencia normalizados: tipo "peligro" en la puerta de acceso, tipo "atención" en las zonas de muting
+
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
