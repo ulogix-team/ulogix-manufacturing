@@ -2,6 +2,21 @@
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 
+# Justificación
+
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
+
+El análisis de los mapas de flujo de valor (Value Stream Mapping, VSM) permitió identificar que la operación de paletizado constituye el principal cuello de botella en las tres líneas de producción de la planta. Esta etapa presenta los mayores tiempos de ciclo y los menores niveles de disponibilidad respecto a las demás operaciones, ocasionando acumulación de producto antes del final de la línea, incremento del trabajo en proceso y pérdidas de productividad asociadas a tiempos de espera.  
+Debido a que el proceso de paletizado se realiza de manera manual, su capacidad depende directamente del desempeño del operario, siendo susceptible a variaciones ocasionadas por fatiga, pausas operativas, diferencias en el ritmo de trabajo y limitaciones ergonómicas propias de la manipulación repetitiva de cargas. Como consecuencia, la velocidad de evacuación del producto terminado resulta inferior a la capacidad de producción de las etapas anteriores, generando saturación en la entrada del paletizado y reduciendo la continuidad del flujo productivo.
+
+# Propuesta
+
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
+
+Con el propósito de eliminar esta restricción de capacidad, se propone la implementación de celdas robotizadas de paletizado. La solución contempla una celda compartida para las líneas 1 y 2, debido a que ambas poseen altas velocidades de producción y características similares de empaque, y una segunda celda dedicada para la línea 3, correspondiente al proceso de garrafones, cuyas dimensiones, peso y configuración de carga requieren una solución específica.
+
+La incorporación de manipuladores industriales permite ejecutar el proceso de paletizado con tiempos de ciclo constantes, alta repetibilidad y operación continua, eliminando las variaciones inherentes al proceso manual. De esta manera, la capacidad del sistema de paletizado supera la demanda de producción de las líneas, evitando la acumulación de producto previo a esta estación y permitiendo mantener un flujo continuo hasta el despacho del producto terminado.
+
 # Celdas de paletizado
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
