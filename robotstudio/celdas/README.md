@@ -79,7 +79,9 @@ El archivo de modelado cad se encuentra disponible en [Celda1](cad/Celda1.zip)
 | Sistema neumático (cilindros, válvulas, VPPM) | ~3% |
 | Protecciones eléctricas, tablero y HMI | ~1% |
 
-**Nivel de confianza**: bajo para IRC5+servomotores y ejes lineales Bosch Rexroth (configuración no estándar, sin precio público); medio para el gripper y estructura manufacturada (estimación de costo de material + maquinado). Alto para componentes de catálogo (Festo, ABB, sensores Pepperl+Fuchs).
+**Nivel de confianza**: bajo para IRC5+servomotores y ejes lineales Bosch Rexroth (configuración no estándar, sin precio público); medio para el gripper y estructura manufacturada (estimación de costo de material + maquinado). Alto para componentes de catálogo (Festo, ABB, sensores Pepperl+Fuchs).  
+
+El BOM se encuentra disponible en [BOM1](BOM/BOM1.xlsx)
 
 
 # Manipulador Articulado ABB IRB 5710
@@ -164,5 +166,7 @@ El archivo de modelado cad se encuentra disponible en [Celda2](cad/Celda2.7z)
 | HMI y otros | ~1% |
 
 **Nivel de confianza**: bajo para robot, controlador y transportadores (ABB e Interroll no publican precio, se cotiza por proyecto — estimado con base en rangos de mercado comparables). Alto para componentes de catálogo estándar (Festo, ABB protecciones, ReeR, EAO, Werma).
+
+El BOM se encuentra disponible en [BOM2](BOM/BOM2.xlsx)
 
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
