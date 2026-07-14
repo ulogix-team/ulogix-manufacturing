@@ -16,7 +16,9 @@ El informe identifica, estima y reduce los riesgos asociados a la operación de 
 
 Se aplicó el método de matriz de riesgo (Probabilidad × Impacto, escala 1-5), con categorización en cuatro niveles: Bajo, Medio, Alto y Extremo.
 
-`[Aquí va la imagen de la matriz de riesgo 5x5 con colores]`
+<p align="center">
+  <img src="Matriz de riesgo.png" alt="Matriz de riesgo">
+</p>
 
 ## 1. Identificación de peligros
 
