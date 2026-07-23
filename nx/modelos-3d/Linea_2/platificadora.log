@@ -1,0 +1,2453 @@
+﻿STEP to UG
+! INFO-     NX STEP AP214 - V2412.7002
+! INFO-      
+! INFO-     Start of Translation: 13-JUL-2026  5:18:39 PM
+! INFO-      
+! STATUS-   Converting Part: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\platificadora.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      FreeCAD Model
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        platificadora.step
+! SUMMARY-  Date             2026-07-13T17:18:06-05:00
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v20.1
+! SUMMARY-  Orig_System      Autodesk Translation Framework v15.8.0.0
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    788
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   1399
+! SUMMARY-  cartesian_point ............................................:   3591
+! SUMMARY-  circle .....................................................:    128
+! SUMMARY-  closed_shell ...............................................:    162
+! SUMMARY-  conical_surface ............................................:      4
+! SUMMARY-  context_dependent_shape_representation .....................:    241
+! SUMMARY-  cylindrical_surface ........................................:     60
+! SUMMARY-  direction ..................................................:   4062
+! SUMMARY-  edge_curve .................................................:   1392
+! SUMMARY-  edge_loop ..................................................:    792
+! SUMMARY-  face_bound .................................................:      4
+! SUMMARY-  face_outer_bound ...........................................:    788
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:    243
+! SUMMARY-  item_defined_transformation ................................:    241
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:   1264
+! SUMMARY-  manifold_solid_brep ........................................:    162
+! SUMMARY-  next_assembly_usage_occurrence .............................:    241
+! SUMMARY-  oriented_edge ..............................................:   2784
+! SUMMARY-  plane ......................................................:    724
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:    242
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:    242
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:    242
+! SUMMARY-  product_definition_shape ...................................:    483
+! SUMMARY-  product_related_product_category ...........................:    242
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:    241
+! SUMMARY-  shape_representation .......................................:    242
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:    243
+! SUMMARY-  vector .....................................................:   1264
+! SUMMARY-  vertex_point ...............................................:    928
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          23445
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 13-JUL-2026 5:18:39 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:42 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_MACHINE_ORIGIN_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_MACHINE_ORIGIN_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_MACHINE_ORIGIN_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\PLANE_TRANSPORT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\LINE_PRODUCT_FLOW
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Cable_Drop_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Cable_Drop_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Cable_Tray_Main
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Emergency_Stop
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Electrical_Cabinet
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_GUARD_DOOR
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Maintenance_Door
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guard_Frame_R_1955
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guard_Frame_L_1955
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:43 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guard_Frame_R_410
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guard_Frame_L_410
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guard_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guard_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_CLOSED_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_CLOSED_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_CLOSED_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_CLOSED_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_CLOSED_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_CLOSED_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_OPEN_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_OPEN_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_OPEN_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_OPEN_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_OPEN_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_OPEN_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_DANCER_POSITION_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:44 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_DANCER_POSITION_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_DANCER_POSITION_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_DANCER_POSITION_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_DANCER_POSITION_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_DANCER_POSITION_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_LOW_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_LOW_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_LOW_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_LOW_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_LOW_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_LOW_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_AFTER_SEAL_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_AFTER_SEAL_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_AFTER_SEAL_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_AFTER_SEAL_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_AFTER_SEAL_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_AFTER_SEAL_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_BEFORE_SEAL_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:45 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_BEFORE_SEAL_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_BEFORE_SEAL_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_BEFORE_SEAL_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_BEFORE_SEAL_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_BEFORE_SEAL_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_PRESENT_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_PRESENT_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_PRESENT_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_PRESENT_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_PRESENT_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_PRESENT_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_IN_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_IN_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_IN_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_IN_Beam
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_IN_Bracket
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_IN_Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_PACK_2X6_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:46 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_PACK_2X6_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_PACK_2X6_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\PACK_2X6_COLLISION_BODY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\PACK_2X6_FILM_WRAPPED_STATE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_11
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_11
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_10
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_10
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_09
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_09
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_08
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_08
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_07
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_07
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:47 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_06
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_06
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_05
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_05
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_Cap_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Bottle_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_SEALING_JAW_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_SEALING_JAW_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_SEALING_JAW_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CY_Seal_Rod__341
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:48 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CY_Seal_Body__341
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CY_Seal_Rod__340
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CY_Seal_Body__340
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Seal_Carriage__356
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Seal_Rail__356
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Seal_Carriage__355
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Seal_Rail__355
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Cutting_Blade_Guard
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Hot_Sealing_Bar
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Sealing_Jaw_Lower
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Sealing_Jaw_Upper
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Lower_Path
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Curtain
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Upper_Path_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Upper_Path_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:49 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_DANCER_PIVOT_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_DANCER_PIVOT_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_DANCER_PIVOT_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Dancer_Pivot_Shaft
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Dancer_Roller
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Dancer_Arm_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Dancer_Arm_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Lower_02_Bracket_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Lower_02_Bracket_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Lower_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Lower_01_Bracket_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Lower_01_Bracket_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Lower_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_03_Bracket_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_03_Bracket_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_02_Bracket_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:50 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_02_Bracket_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_01_Bracket_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_01_Bracket_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Guide_Roller_Upper_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_LOWER_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_LOWER_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_LOWER_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Lower_Cone_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Lower_Cone_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Lower_Shaft
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Lower
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_UPPER_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_UPPER_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_UPPER_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Upper_Cone_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:51 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Upper_Cone_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Upper_Shaft
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Film_Roll_Upper
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Mid_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Mid_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Top_Back
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Top_Front
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Top_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Top_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Post_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Post_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Post_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Portal_Post_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_CONVEYOR_DRIVE_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_CONVEYOR_DRIVE_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_CONVEYOR_DRIVE_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:52 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Right_Product_Guide
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Left_Product_Guide
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Gearbox
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\M_CONVEYOR
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_2230_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_2230_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_2230_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_2230__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_2230__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_2230__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_1550_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_1550_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_1550_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_1550__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_1550__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:53 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_1550__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_850_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_850_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_850_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_850__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_850__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_850__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_170_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_170_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_170_275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leveler_170__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\BasePlate_170__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Leg_170__275
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Return_Roller_05
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Return_Roller_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Return_Roller_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Return_Roller_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:54 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Return_Roller_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Tail_Roller
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Drive_Roller
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CV_FILM_APPLICATOR_BELT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Cross_07
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Cross_06
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Cross_05
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Cross_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Cross_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Cross_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Cross_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Frame_Right
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\Conveyor_Frame_Left
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_CONVEYOR_DRIVE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_01_FILM_APPLICATOR_CONVEYOR
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    46
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             46
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:55 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_02_FILM_PORTAL_FRAME
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    10
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             10
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_DANCER_PIVOT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_LOWER
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_FILM_ROLL_UPPER
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_03_FILM_UNWINDING
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    30
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             30
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_04_FILM_PATHS
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_SEALING_JAW
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_05_SEALING_AND_CUTTING
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    13
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             13
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_PACK_2X6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_06_PACK_2X6_REFERENCE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    27
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             27
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_CLOSED
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_CLOSED
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_SEAL_OPEN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_SEAL_OPEN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_DANCER_POSITION
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:56 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_DANCER_POSITION
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_LOW
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_LOW
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_AFTER_SEAL
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_AFTER_SEAL
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_BEFORE_SEAL
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_BEFORE_SEAL
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_FILM_PRESENT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_FILM_PRESENT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_S_PACK_IN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\S_PACK_IN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_07_SENSORS
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              8
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_08_SAFETY_GUARDS
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              8
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_09_ELECTRICAL_AND_CABLE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:57 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\CSYS_MACHINE_ORIGIN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:58 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\_10_REFERENCE_GEOMETRY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2026  5:18:58 PM
+! INFO-     Filing Part ..: D:\Universidad\11vo semestre\APM\Gemelo digital\Modelos diseñadso\Maquina_plasticos\platificadora.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    10
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             10
+! INFO-      
+! INFO-     Total number of solids input for this translation       :       162
+! INFO-      
+! INFO-     Number of solids created without body validation faults :       162
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 13-JUL-2026  5:18:58 PM
+! INFO-      

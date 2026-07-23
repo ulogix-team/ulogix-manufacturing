@@ -1,0 +1,82 @@
+INFO: Header : Author::Unknown
+INFO: Header : Authorization::Unknown
+INFO: Header : Description::Unknown
+INFO: Header : File Name::Segurirdad_Linea_3.step
+INFO: Header : Implementation Level::2;1
+INFO: Header : Organization::Unknown
+INFO: Header : Originating System::Autodesk Translation Framework v15.8.0.0
+INFO: Header : Preprocessor Version::ST-DEVELOPER v20.1
+INFO: Header : Schema::AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }
+INFO: Header : Time Stamp::2026-07-11T19:13:28-05:00
+INFO: Begin CAD File Read 'D:/Universidad/11vo semestre/APM/Gemelo digital/Modelos descargados/Celda_linea_3/Seguridad/Segurirdad_Linea_3.step'
+
+INFO:       Summary of STEP Entities
+INFO: 
+INFO: Entity Type                                                   Count
+INFO: -----------                                                   ------
+INFO: advanced_brep_shape_representation .......................:   303
+INFO: advanced_face ............................................:   15809
+INFO: application_context ......................................:   1
+INFO: application_protocol_definition ..........................:   1
+INFO: axis2_placement_3d .......................................:   34789
+INFO: b_spline_curve_with_knots ................................:   1227
+INFO: b_spline_curve_with_knots_and_rational_b_spline_curve ....:   841
+INFO: b_spline_surface_with_knots ..............................:   124
+INFO: b_spline_surface_with_knots_and_rational_b_spline_surface :   168
+INFO: cartesian_point ..........................................:   107264
+INFO: circle ...................................................:   7653
+INFO: closed_shell .............................................:   314
+INFO: colour_rgb ...............................................:   28
+INFO: conical_surface ..........................................:   692
+INFO: context_dependent_shape_representation ...................:   334
+INFO: cylindrical_surface ......................................:   8210
+INFO: derived_unit .............................................:   303
+INFO: derived_unit_element .....................................:   606
+INFO: descriptive_representation_item ..........................:   303
+INFO: direction ................................................:   89731
+INFO: edge_curve ...............................................:   40847
+INFO: edge_loop ................................................:   17630
+INFO: ellipse ..................................................:   10973
+INFO: face_bound ...............................................:   1821
+INFO: face_outer_bound .........................................:   15809
+INFO: fill_area_style ..........................................:   28
+INFO: fill_area_style_colour ...................................:   28
+INFO: geometric_representation_context_and_global_uncertainty_a :   313
+INFO: item_defined_transformation ..............................:   334
+INFO: length_unit_and_si_unit ..................................:   2
+INFO: line .....................................................:   20153
+INFO: manifold_solid_brep ......................................:   314
+INFO: mass_unit_and_si_unit ....................................:   1
+INFO: measure_representation_item ..............................:   303
+INFO: mechanical_design_geometric_presentation_representation ..:   1
+INFO: next_assembly_usage_occurrence ...........................:   334
+INFO: oriented_edge ............................................:   81694
+INFO: plane ....................................................:   6228
+INFO: plane_angle_unit_and_si_unit .............................:   1
+INFO: presentation_style_assignment ............................:   28
+INFO: product ..................................................:   312
+INFO: product_context ..........................................:   1
+INFO: product_definition .......................................:   312
+INFO: product_definition_context ...............................:   1
+INFO: product_definition_formation .............................:   312
+INFO: product_definition_shape .................................:   646
+INFO: product_related_product_category .........................:   312
+INFO: property_definition ......................................:   606
+INFO: property_definition_representation .......................:   606
+INFO: representation ...........................................:   606
+INFO: representation_relationship_with_transformation_and_shape :   334
+INFO: shape_definition_representation ..........................:   312
+INFO: shape_representation .....................................:   312
+INFO: shape_representation_relationship ........................:   303
+INFO: si_unit_and_solid_angle_unit .............................:   1
+INFO: spherical_surface ........................................:   131
+INFO: styled_item ..............................................:   816
+INFO: surface_side_style .......................................:   28
+INFO: surface_style_fill_area ..................................:   28
+INFO: surface_style_usage ......................................:   28
+INFO: toroidal_surface .........................................:   256
+INFO: uncertainty_measure_with_unit ............................:   313
+INFO: vector ...................................................:   20153
+INFO: vertex_point .............................................:   21485
+INFO:                                                              -------
+INFO: Total                                                         513757
